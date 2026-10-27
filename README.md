@@ -13,6 +13,33 @@ A Python-based personal finance application built with **Streamlit, Pandas, and 
 - 💾 **Local Data Storage** — Store expense data using SQLite.
 - 🧪 **Database Tests** — Test core database functionality.
 
+## 📸 Screenshots
+
+### 🏠 Dashboard
+Track income, expenses, current balance, and recent transactions.
+
+![Smart Expense Tracker Dashboard](screenshots/dashboard.png)
+
+### 📊 Spending Analytics
+Visualize category-wise expenses and monthly spending trends.
+
+![Spending Analytics](screenshots/analytics.png)
+
+### 🤖 Smart Expense Insights
+View spending summaries, estimated month-end expenses, and rule-based recommendations.
+
+![Smart Expense Insights](screenshots/ai-insights.png)
+
+### 🎯 Savings Goal Planner
+Set monthly spending-reduction targets and monitor progress.
+
+![Savings Goal Planner](screenshots/savings-goal.png)
+
+### ⚙️ Profile & Settings
+Customize your display name and application theme.
+
+![Profile and Settings](screenshots/profile-settings.png)
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
