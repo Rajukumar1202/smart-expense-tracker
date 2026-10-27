@@ -56,6 +56,33 @@ Customize your display name and application theme.
 | SQLite | Local database storage |
 | Plotly | Interactive data visualizations |
 
+## 🏗️ Project Architecture
+
+The application follows a simple modular structure that separates the user interface, database operations, and automated tests.
+
+```text
+smart-expense-tracker/
+├── app.py              # Streamlit user interface and application logic
+├── database.py         # SQLite database operations
+├── requirements.txt    # Python dependencies
+├── test_database.py    # Database tests
+├── screenshots/        # Application screenshots for documentation
+├── .gitignore          # Excludes local and sensitive files
+└── README.md           # Project documentation
+```
+
+### 🔄 How It Works
+
+1. **User Interface (`app.py`)** — Provides the Streamlit interface for interacting with the expense tracker.
+2. **Database Layer (`database.py`)** — Handles database-related operations using SQLite.
+3. **Data Storage** — Expense records and related data are stored locally in the SQLite database.
+4. **Testing (`test_database.py`)** — Contains tests for checking core database functionality.
+5. **Dependencies (`requirements.txt`)** — Lists the Python packages required to run the application.
+
+### 🧪 Quality & Maintainability
+
+Separating database operations from the interface makes the project easier to test, maintain, and extend with future features.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
