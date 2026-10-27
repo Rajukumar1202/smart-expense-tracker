@@ -3,6 +3,8 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
 
+![Tests](https://github.com/Rajukumar1202/smart-expense-tracker/actions/workflows/python-app.yml/badge.svg)
+
 # 💰 Smart Expense Tracker
 
 
