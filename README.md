@@ -4,7 +4,7 @@
 ![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
 
 # 💰 Smart Expense Tracker
-# 💰 Smart Expense Tracker
+
 
 A Python-based personal finance application built with **Streamlit, Pandas, and SQLite** to help users track expenses, monitor spending habits, manage budgets, and plan savings.
 
