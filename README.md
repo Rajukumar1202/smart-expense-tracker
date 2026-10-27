@@ -177,3 +177,58 @@ No license has been specified yet. All rights are reserved by the copyright hold
 ---
 
 ⭐ If you find this project useful, consider starring the repository!
+
+
+## 🚀 Installation & Usage
+
+### Prerequisites
+- Python 3.10 or later
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rajukumar1202/smart-expense-tracker.git
+cd smart-expense-tracker
+```
+
+### 2. Create a virtual environment
+
+**Windows (PowerShell):**
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open in your browser, usually at `http://localhost:8501`.
+
+### 5. Run database tests
+
+```bash
+python -m unittest test_database -v
+```
+
+## 🗄️ Data Storage
+
+The application uses SQLite for local data storage. Transaction data is stored locally when the application runs on your computer.
+
+**Note:** The repository does not include personal transaction records or local database files.
+
