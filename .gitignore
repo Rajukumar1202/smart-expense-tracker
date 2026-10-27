@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and personal settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+profile.json
+
+# Local databases and backups
+expenses.db
+*.db
+*.sqlite
+*.sqlite3
+*before*.py
+*backup*.py
+app copy.py
+app_persistent_savings_goals*.py
+app_option4_*.py
+
+# Generated files
+.DS_Store
